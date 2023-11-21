@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment P06</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="assignment.css">
+  <style>
+    ul li{
+      margin-left: 15px;
+    }
+    #footer h6{
+      margin-left: 8px;
+    }
+    @media (max-width: 560px) {
+      #copyright{
+      font-size: 0.85rem;
+      }
+      button{
+        margin-bottom: 10px;
+      }
+      #secbtn{
+        font-size:0.7rem ;
+      }
+
+    }
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="assignment.html">SOI Club Portal</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Course </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="javascript:void(0)">Contact</a>
+        </li>
+        <form class="d-flex" style="margin-left: 15px">
+          <input class="form-control me-2" type="text" placeholder="Search">s
+          <button class="btn btn-primary" type="button">Search</button>
+        </form>
+      </ul>
+      <div style="width: 2.5vw; height: 5vh; background-color: white"
+           class="d-flex justify-content-center align-items-center rounded-circle">
+        <i class="fa-solid fa-bell  fa-xl"></i>
+      </div>
+      <div style="width: 2.5vw; height: 5vh; background-color: white;margin-left: 2vw"
+           class="rounded-circle d-flex justify-content-center align-items-center">
+        <i class="fas fa-user fa-xl"></i>
+      </div>
+    </div>
+  </div>
+
+  <div>
+
+  </div>
+</nav>
+<div class="container-fluid "  style="background: linear-gradient(purple,pink);padding: 4vw 13vw ;">
+  <div class="container ">
+    <div class="row text-light pt-5">
+      <div class="col-md-7 pb-5">
+        <h1 style="margin-bottom: 8vh">Welcome to SOI Club</h1>
+        <h5> Expertly crafted courses that best fit your</h5>
+        <h5 style="margin-bottom: 5vh">learning needs and preferences</h5>
+        <button type="button" class="btn btn-warning  shadow"
+                style="color: white;font-weight: bold ;padding-top: 1rem"> <p style="font-size: 1rem">Browse Courses</p>
+        </button>
+        <button type="button" class="btn shadow" id="secbtn"
+                style="color: #FEC00E; background-color: white;font-weight: bold">
+          <p style="font-size: 1rem ;padding-top:0.5rem">Be An Instructor</p>
+        </button>
+      </div>
+      <div class="col-md-5 d-flex">
+        <img class="img-fluid" src="images/main.png" style="height: 85%; padding-left: 6vw;">
+      </div>
+
+    </div>
+  </div>
+</div>
+<!                                         Center -->
+
+<div class="container fluid " style="padding: 2vh 4vw 0vh 4vw;" >
+  <div class="row" style="margin-top: 2vh">
+    <div class=" col-sm-4 d-flex">
+      <div style="width: 3rem; height: 7vh; background-color: lightblue;margin-left: 3vw"
+           class="rounded-circle d-flex justify-content-center align-items-center">
+        <i class="fa-solid fa-book fa-xl"></i>
+      </div>
+      <div>
+        <h4 style="color: black;margin-left: 10px"> 158 online courses</h4>
+        <h6 style="color: black;margin-left: 10px;margin-bottom: 50px">Enjoy a variety of fresh topics</h6>
+      </div>
+    </div>
+
+    <div class=" col-sm-4 d-flex">
+      <div style="width: 3rem; height: 7vh; background-color: lightblue;margin-left: 3vw"
+           class="rounded-circle d-flex justify-content-center align-items-center">
+        <i class="fa-solid fa-user-tie fa-xl"></i>
+      </div>
+
+      <div>
+        <h4 style="color: black;margin-left: 10px"> Expert Instruction</h4>
+        <h6 style="color: black;margin-left: 10px;margin-bottom: 50px">Find the right instruction </h6>
+      </div>
+    </div>
+
+    <div class=" col-sm-4 d-flex">
+      <div style="width: 3rem; height: 7vh; background-color: lightblue;margin-left: 2vw"
+           class="rounded-circle d-flex justify-content-center align-items-center">
+        <i class="fa-regular fa-hourglass-half fa-xl"></i>
+      </div>
+
+      <div>
+        <h4 style="color: black;margin-left: 10px"> Lifetime access</h4>
+        <h6 style="color: black;margin-left: 10px;margin-bottom: 50px">Learn on your schedule</h6>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!                                Features -->
+<div class="container-fluid" style="background:linear-gradient(#FEC00E,#FEDF0E);padding: 4vw 13vw ;">
+  <div class="container">
+  <h1>Feature </h1>
+    <br>
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card rounded" style="width:256px">
+          <div class="card-header" style="margin: 0px;padding: 0px;background-color: white">
+            <img class="card-img-bottom rounded" src="images/html.png" alt="Card image"
+                 style="width:100%;height: 200px">
+
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Introduction of HTML/CSS</h5>
+            <br><br>
+            <div style="display: flex; align-items: center;">
+              <i class="far fa-clock fa-lg"></i>
+              <h5 style="margin-left: 10px;margin-top: 6px">2H 30M</h5>
+            </div>
+
+
+          </div>
+          <div class="card-footer">
+            <div class="row">
+              <div class="col-2 col-sm-2">
+                <div style="width: 2rem; height: 4vh; background-color: black" class="d-flex justify-content-center align-items-center rounded-circle">
+                  <i class="fa-solid fa-user fa-l" style="color: white"></i>
+                </div>
+              </div>
+
+              <div class="col-8 col-sm-7 d-flex align-items-center">
+                <h6>Hannah Lims</h6>
+              </div>
+
+              <div class="col-2 col-sm-3">
+                <i class="fa-solid fa-bookmark fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card rounded" style="width:256px ">
+          <div class="card-header" style="margin: 0px;padding: 0px;background-color: white">
+            <img class="card-img-bottom rounded" src="images/UIUX.png" alt="Card image"
+                 style="width:100% ;height: 200px">
+
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">User Experience and Interface Design</h5>
+            <br><br>
+            <div style="display: flex; align-items: center;">
+              <i class="far fa-clock fa-lg"></i>
+              <h5 style="margin-left: 10px;margin-top: 6px">2H 45M</h5>
+            </div>
+
+
+          </div>
+          <div class="card-footer">
+            <div class="row">
+              <div class="col-2 col-sm-2">
+                <div style="width: 2rem; height: 4vh; background-color: black" class="d-flex justify-content-center align-items-center rounded-circle">
+                  <i class="fa-solid fa-user fa-l" style="color: white"></i>
+                </div>
+              </div>
+
+              <div class="col-8 col-sm-7 d-flex align-items-center">
+                <h6>Julia Lee</h6>
+              </div>
+
+              <div class="col-2 col-sm-3">
+                <i class="fa-solid fa-bookmark fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card rounded" style="width:256px">
+          <div class="card-header" style="margin: 0px;padding: 0px;background-color: white">
+            <img class="card-img-bottom rounded" src="images/ios.png" alt="Card image"
+                 style="width:100%;height: 200px">
+
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">IOS App Development using Xcode and Swift</h5>
+            <br><br>
+            <div style="display: flex; align-items: center;">
+              <i class="far fa-clock fa-lg"></i>
+              <h5 style="margin-left: 10px;margin-top: 6px">4H 30M</h5>
+            </div>
+
+
+          </div>
+          <div class="card-footer">
+            <div class="row">
+              <div class="col-2 col-sm-2">
+                <div style="width: 2rem; height: 4vh; background-color: black" class="d-flex justify-content-center align-items-center rounded-circle">
+                  <i class="fa-solid fa-user fa-l" style="color: white"></i>
+                </div>
+              </div>
+
+              <div class="col-8 col-sm-7 d-flex align-items-center">
+                <h6>Ryan Low</h6>
+              </div>
+
+              <div class="col-2 col-sm-3">
+                <i class="fa-solid fa-bookmark fa-xl"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card rounded" style="width:256px">
+          <div class="card-header" style="margin: 0px;padding: 0px;background-color: white">
+            <img class="card-img-bottom rounded" src="images/frameworks.png" alt="Card image"
+                 style="width:100% ;height: 200px">
+
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Front-end Javascript Frameworks</h5>
+            <br><br>
+            <div style="display: flex; align-items: center;">
+              <i class="far fa-clock fa-lg"></i>
+              <h5 style="margin-left: 10px;margin-top: 6px">2H 30M</h5>
+            </div>
+
+
+          </div>
+          <div class="card-footer">
+            <div class="row">
+              <div class="col-2 col-sm-2">
+                <div style="width: 2rem; height: 4vh; background-color: black" class="d-flex justify-content-center align-items-center rounded-circle">
+                  <i class="fa-solid fa-user fa-l" style="color: white"></i>
+                </div>
+              </div>
+
+              <div class="col-8 col-sm-7 d-flex align-items-center">
+                <h6>Azhar Karmar</h6>
+              </div>
+
+              <div class="col-2 col-sm-3">
+                <i class="fa-solid fa-bookmark fa-xl"></i>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+    <hr style="border: 2px solid black">
+    <div class="row">
+      <div class="col-sm-9">
+        <p id="copyright">© 2023 SOI Learning Portal. All rights Reserved.</p>
+      </div>
+      <div class="col-sm-3 d-flex "style="text-decoration: none; color: black" id="footer">
+        <h6 style="font-weight: bold">Privacy</h6>
+        <h6 style="font-weight: bold">Terms</h6>
+        <h6 style="font-weight: bold">Feedback</h6>
+        <h6 style="font-weight: bold">Supports</h6>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+
+
+
+
+</div>
+</body>
+</html>
